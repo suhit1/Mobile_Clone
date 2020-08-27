@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-black-meat-western-food-banner-background-image_194600.jpg");
+}
+table{
+    border-spacing: 10px;
+    animation-name: style;
+    animation-duration: 5s;
+}
+td,th{
+    border-spacing: 10px;
+}
+.head1{
+    position: relative;
+    left: -700px;
+}
+.tab0{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.tab2{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    top: -0px;
+}
+.tab3{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+.tab4{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+.tab5{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+.tab6{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+.tab7{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+.tab8{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+.tab9{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+.head{
+    letter-spacing: 30px;
+    color: white;
+}
+.hov:hover{
+    background-color: coral;
+}
+.hov1:hover{
+    background-color: cornsilk;
+}
+.hov2:hover{
+    background-color: cornflowerblue;
+}
+.hov3:hover{
+    background-color: darkkhaki;
+}
+.hov4:hover{
+    background-color: darkseagreen;
+}
+.hov5:hover{
+    background-color: deeppink;
+}
+.hov6:hover{
+    background-color: deepskyblue;
+}
+.hov7:hover{
+    background-color: forestgreen;
+}
+.hov8:hover{
+    background-color: gold;
+}
+a{
+     text-decoration: none;
+     color: black;
+}
+.responsive{
+    margin: auto;
+}
+@keyframes style{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@media only screen and (max-width: 800px)
+{
+    .responsive{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .responsive{
+        width: 100%;
+    }
+}
